@@ -29,22 +29,27 @@ r-cheat-sheet/
 │   ├── 01_helpr.r
 │   ├── 01_helpr.ssh
 │   └── ...
+│
 ├── 02_using_packages/
 │   ├── using_packages.md
 │   ├── 01_install_packages.r
 │   └── 02_library.r
 │
-├── control_flow/
-│   ├── comprehensions.py
-│   ├── conditionals.py
+├── 03_working_directory/
+│   ├── working_directory.md
+│   ├── 01_getwd.r
+│   └── 02_setwd.r
+│
+├── 04_operators/
+│   ├── operators.md
+│   ├── 01_arithmetic_operators.r
+│   ├── 02_relational_operators.r
 │   └── ...
-├── data_structures/
-│   ├── dictionaries.py
-│   ├── linked_list.py
-│   └── ...
-├── database/
-│   ├── mysql_connection.py
-│   ├── orm_sqlalchemy.py
+│
+├── 05_vectors/
+│   ├── vectors.md
+│   ├── 01_concatenate_elements.r
+│   ├── 02_sequence_of_integers.r
 │   └── ...
 └── ...
 ```
