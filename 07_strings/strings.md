@@ -114,3 +114,9 @@ str_sort(x)
 - Las funciones de mutación de cadenas son esenciales para estandarizar y limpiar datos textuales.
 - Recuerda que `str_replace()` solo afecta la primera coincidencia, mientras que `str_replace_all()` afecta a todas.
 - `str_to_lower()`, `str_to_upper()`, `str_to_title()` son muy útiles para normalizar la capitalización.
+- `str_dup()` es ideal para la generación de patrones simples o para preparar cadenas para otros procesos.
+- `str_split_fixed()` es invaluable para la limpieza y estructuración de datos donde las cadenas deben dividirse en un número predefinido de campos.
+- Para divisiones donde el número de partes no es fijo o se prefiere una lista como salida, `str_split()` (sin `_fixed`) sería más apropiado.
+- `str_order()` es útil cuando necesitas los índices de ordenación para reordenar varios vectores o data frames de manera consistente.
+- `str_sort()` es más conveniente si solo necesitas el vector de cadenas ordenado.
+- El argumento `locale` es muy importante para asegurar una ordenación correcta en diferentes idiomas, ya que las reglas de clasificación varían (ej. 'ch' en checo, acentos en español).

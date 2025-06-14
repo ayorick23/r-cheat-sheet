@@ -4,6 +4,8 @@ Los paquetes **R** son colecciones de funciones y herramientas desarrolladas por
 
 - `install.packages(“nombre_paquete”)`: Permite instalar nuevos paquetes
 - `library(nombre_paquete)`: Permite cargar y usar paquetes
+- `dplyr:select`: Permite usar una función específica de un paquete
+- `data(iris)`: Carga un conjunto de datos predefinido en el entorno
 
 **NOTA:**
 
